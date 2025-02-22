@@ -137,6 +137,9 @@ python evaluate.py \
 Finally, execute `python evaluation/calculate_acc.py` to calculate the final score based on the evaluation results. 
 This step will compute overall accuracy as well as accuracy for each subject, category, and tasks.
 
+## LeaderBoard Supplement
+- grok-2-vision-latest: EMMA-mini 38.0%
+
 
 ## 📝Citation
 
