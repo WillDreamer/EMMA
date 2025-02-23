@@ -10,12 +10,12 @@ from data_utils import load_yaml, verify_response, build_query
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset_name', type=str, default='luckychao/EMMA-mini')
+    parser.add_argument('--dataset_name', type=str, default='luckychao/EMMA')
     parser.add_argument('--subject', nargs='+', type=str, required=True)
     parser.add_argument('--split', type=str, default='test')
     parser.add_argument('--strategy', type=str, default='CoT', choices=['CoT', 'Direct'])
     parser.add_argument('--config_path', type=str, default="configs/gpt.yaml")
-    parser.add_argument('--output_path', type=str, default='/home/whx/MM-Reasoning/EMMA/results/EMMA-mini-reimplement/closed-source')
+    parser.add_argument('--output_path', type=str, default='/home/whx/MM-Reasoning/EMMA/results/EMMA-reimplement/closed-source')
     parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer generation')
     # Remote model
