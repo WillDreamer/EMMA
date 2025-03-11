@@ -1,0 +1,5 @@
+/models/__pycache__/
+/*.log
+/__pycache__/
+/multiagent-ft/multiagent-ft/qwen2-7b-sft/*
+/multiagent-ft/multiagent-ft/generate_dir/*
